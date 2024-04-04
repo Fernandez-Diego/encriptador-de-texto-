@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <script src="https://kit.fontawesome.com/eced303669.js" crossorigin="anonymous"></script>
+    <script src="codigo.js"></script>
+    <title>challenge ONE - Alura Latam</title>
+
+</head>
+
+<body>
+    <header>
+        <img src="imagenes/Logo.png">
+        <p id="titulo">ENCRIPTADOR DE TEXTO</p>
+    </header>
+
+    <div class="contenedor">
+        <textarea id="textoIngresado" placeholder="Escriba o pegue aquí el texto..."></textarea>
+        <p id="regla"><i class="fa-solid fa-circle-exclamation"></i> Sólo se permiten letras en minúscula</p>
+        <textarea id="mensajeModificado" readonly></textarea>
+    </div>
+
+    <div class="contenedor-botones">
+        <button class="btn-encriptar" onclick="encriptarDesencriptarTexto('encriptar')">Encriptar</button>
+        <button class="btn-desencriptar" onclick="encriptarDesencriptarTexto('desencriptar')">Desencriptar</button>
+        <button class="btn-copiar" onclick="copiarTexto()">Copiar</button>
+        <button class="btn-copiar" onclick="limpiarCajas()">limpiar</button>
+        <button class="btn-pegar" onclick="pegarTexto()">Pegar</button>
+    </div>
+
+    <footer>
+        <p id="pie">Creado por Diego Fernandez - 2024 - <a
+                href="https://www.linkedin.com/in/diego-javier-fernandez-perez-465820243"><i
+                    class="fa-brands fa-linkedin"></i></a></p>
+    </footer>
+</body>
+
+</html>

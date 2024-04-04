@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header img {
+    margin: 15px 0 0 15px;
+}
+
+#titulo {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-fill-color: whitesmoke;
+    -webkit-text-stroke: 2px rgb(2, 45, 94);
+    font-size: 36px;
+    margin-top: 0%;
+}
+
+.contenedor {
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 900px;
+      padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(4, 4, 5, 0.2);
+}
+
+textarea {
+    font-size: 20px;
+    color: #011022;
+    width: calc(100% - 20px);
+    height: 140px;
+    resize: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.contenedor-botones {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px 5px 5px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #011022;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#regla {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: #011022;
+    font-size: 12px;
+}
+
+#pie {
+    text-align: center;
+    font-size: 13px;
+    color: #011022;
+    /* Cambiar el color del texto a azul */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0px;
+    background-color: #fff;
+}
+
+@media (max-width: 500px) {
+    #titulo {
+        margin-top: 20px;
+        text-align: center;
+        width: 100%;
+        /* Permite que la imagen se ajuste al contenedor */
+        font-size: 25px;
+        -webkit-text-stroke: 1px rgb(2, 45, 94);
+    }
+
+}
+
+@media (max-width: 559px) {
+     header img {
+        display: none;
+    }#textoIngresado {
+        font-size: 15px;
+    }
+    #mensajeModificado {
+        font-size: 15px;
+    }
+}
+
+
+
